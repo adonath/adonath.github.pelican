@@ -1,6 +1,5 @@
 Title: Other
 page-order: 5
 
-# Music
+This page is about other stuff.
 
-# Poetry
