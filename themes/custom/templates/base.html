@@ -22,12 +22,8 @@
 </head>
 
 <body>
-	<div id="wrap" style="width:850px;">
-      <div id='pagetitle'>
-      <span id='title'><a href="{{ SITEURL }} " title="title">{{ SITENAME }}</a></span><br>
-      <!-- <span class="feed"><a href="">RSS</a> | <a href="">Atom</a></span> -->
-      </div>      	    
-        <div id="container" style="width:690px">
+	<div id="wrap" style="width:860px;">
+        <div id="container" style="width:650px">
             {% include 'github.html' %}
 
             <div class="entry">
@@ -37,7 +33,12 @@
         </div>
 
 
-        <div id="sidebar">
+        <div id="sidebar" style="width:160px">
+            <div id='pagetitle'>
+                  <span id='title'><a href="{{ SITEURL }} " title="title">{{ SITENAME }}</a></span><br>
+                  <!-- <span class="feed"><a href="">RSS</a> | <a href="">Atom</a></span> -->
+            </div>      	    
+      
             <nav>
                 <ul>
                 {% for page in pages %}
@@ -55,10 +56,7 @@
         </div>
 
         <div id="footer">
-            <div id="credits">
-                <span>Adapted from <a href="http://wordpress.org/themes/monospace">Monospace</a> || Created with <a href="">Pelican</a></span>
-            </div>
-                
+            Adapted from <a href="https://github.com/getpelican/pelican-themes/tree/master/monospace">Monospace</a> || Created with <a href="">Pelican</a>                
         </div>
 
     {% include 'analytics.html' %}
