@@ -25,6 +25,7 @@ LINKS = (('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
+          ('github', 'https://github.com/adonath'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
